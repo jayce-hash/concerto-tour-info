@@ -1,20 +1,155 @@
 [
   {
-    "tourId": "sabrina-carpenter-short-n-sweet-2025",
-    "tourName": "Short n' Sweet Tour",
-    "artist": "Sabrina Carpenter",
-    "tourWebsite": "https://sabrinacarpenter.com/tour"
+    "tourId": "lady-gaga-the-mayhem-ball-na-2026",
+    "tourName": "The Mayhem Ball",
+    "artist": "Lady Gaga",
+    "tourWebsite": "https://www.ladygaga.com/us-en/live"
   },
   {
-    "tourId": "coldplay-music-of-the-spheres-2025",
-    "tourName": "Music of the Spheres World Tour",
-    "artist": "Coldplay",
-    "tourWebsite": "https://coldplay.com/tour"
+    "tourId": "conan-gray-wishbone-world-tour-na",
+    "tourName": "Wishbone World Tour",
+    "artist": "Conan Gray",
+    "tourWebsite": "https://shop.conangray.com/pages/tour?srsltid=AfmBOoq_m_5lstxfqH-lwxxoLoDcMpvjisUIQL0Efx1Vv2-mSWE7Z6bI"
   },
   {
-    "tourId": "morgan-wallen-one-thing-at-a-time-2025",
-    "tourName": "One Thing at a Time Tour",
-    "artist": "Morgan Wallen",
-    "tourWebsite": "https://morganwallen.com/tour"
-  }
+    "tourId": "alex-warren-little-orphan-alex-live",
+    "tourName": "Little Orphan Alex Live",
+    "artist": "Alex Warren",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "ariana-grande-the-eternal-sunshine-tour-na",
+    "tourName": "The Eternal Sunshine Tour",
+    "artist": "Ariana Grande",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "olivia-dean-the-art-of-loving-tour",
+    "tourName": "The Art of Loving Tour",
+    "artist": "Olivia Dean",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "demi-lovato-its-not-that-deep-tour",
+    "tourName": "It's Not That Deep Tour",
+    "artist": "Demi Lovato",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "bruno-mars-the-romantic-tour",
+    "tourName": "The Romantic Tour",
+    "artist": "Bruno Mars",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "journey-final-frontier-tour",
+    "tourName": "Final Frontier Tour",
+    "artist": "Journey",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "bon-jovi-forever-tour",
+    "tourName": "Forever Tour",
+    "artist": "Bon Jovi",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "rush-fifty-something-tour",
+    "tourName": "Fifty Something Tour",
+    "artist": "Rush",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "my-chemical-romance-the-black-parade-tour",
+    "tourName": "The Black Parade Tour",
+    "artist": "My Chemical Romance",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "chris-stapleton-all-american-road-show-tour",
+    "tourName": "All-American Road Show Tour",
+    "artist": "Chris Stapleton",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "cardi-b-little-miss-drama-tour",
+    "tourName": "Little Miss Drama Tour",
+    "artist": "Cardi B",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "hayley-williams-at-a-bachelorette-party-tour",
+    "tourName": "Hayley Williams at a Bachelorette Party Tour",
+    "artist": "Hayley Williams",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "florence-the-machine-everybody-scream-tour",
+    "tourName": "Everybody Scream Tour",
+    "artist": "Florence + The Machine",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "louis-tomlinson-how-did-we-get-here-world-tour",
+    "tourName": "How Did We Get Here? World Tour",
+    "artist": "Louis Tomlinson",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "charlie-puth-whatevers-clever-world-tour",
+    "tourName": "Whatever's Clever! World Tour",
+    "artist": "Charlie Puth",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "bts-world-tour",
+    "tourName": "BTS World Tour",
+    "artist": "BTS",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "madison-beer-the-locket-tour",
+    "tourName": "the locket tour",
+    "artist": "Madison Beer",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "pitbull-im-back-tour.json",
+    "tourName": "I'm Back Tour",
+    "artist": "Pitbull",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+
 ]
+
+  '-2026.json',
+  'ed-sheeran-the-loop-tour-na-2026.json',
+  'fifa-world-cup-2026.json',
+  'olivia-dean-the-art-of-loving-tour.json',
+  'demi-lovato-its-not-that-deep-tour.json',
+  'bruno-mars-the-romantic-tour.json',
+  'journey-final-frontier-tour.json',
+  'bon-jovi-forever-tour.json',
+  'rush-fifty-something-tour.json',
+  'my-chemical-romance-the-black-parade-tour.json',
+  'chris-stapleton-all-american-road-show-tour.json',
+  'cardi-b-little-miss-drama-tour.json',
+  'hayley-williams-at-a-bachelorette-party-tour.json',
+  'florence-the-machine-everybody-scream-tour.json',
+  'louis-tomlinson-how-did-we-get-here-world-tour.json',
+  'charlie-puth-whatevers-clever-world-tour.json',
+  'bts-world-tour.json',
+  'madison-beer-the-locket-tour.json',
+  'pitbull-im-back-tour.json',
+  'harry-styles-together-together-tour.json',
+  'noah-kahan-the-great-divide-tour.json',
+  'post-malone-the-big-ass-stadium-tour.json',
+  'tame-impala-the-deadbeat-tour.json',
+  'raye-this-tour-may-contain-new-music.json',
+  'the-kid-laroi-a-perfect-world-tour.json',
+  'j-cole-the-fall-off-tour.json',
+  'summer-walker-still-finally-over-it-tour.json',
+  'don-toliver-octane-tour.json',
+  'mumford-and-sons-prizefighter-tour.json',
+  'jonas-brothers-greetings-from-your-hometown-tour.json',
+  'zara-larsson-midnight-sun-tour.json'
