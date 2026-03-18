@@ -114,42 +114,81 @@
     "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
   },
   {
-    "tourId": "pitbull-im-back-tour.json",
+    "tourId": "pitbull-im-back-tour",
     "tourName": "I'm Back Tour",
     "artist": "Pitbull",
     "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
   },
-
+  {
+    "tourId": "harry-styles-together-together-tour",
+    "tourName": "Together, Together Tour",
+    "artist": "Harry Styles",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "noah-kahan-the-great-divide-tour",
+    "tourName": "The Great Divide Tour",
+    "artist": "Noah Kahan",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "post-malone-the-big-ass-stadium-tour",
+    "tourName": "The Big ASS Stadium Tour",
+    "artist": "Post Malone",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "tame-impala-the-deadbeat-tour",
+    "tourName": "The Deadbeat Tour",
+    "artist": "Tame Impala",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "raye-this-tour-may-contain-new-music",
+    "tourName": "This Tour May Contain New Music",
+    "artist": "RAYE",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "the-kid-laroi-a-perfect-world-tour",
+    "tourName": "The Kid LAROI",
+    "artist": "A Perfect World Tour",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "j-cole-the-fall-off-tour",
+    "tourName": "The Fall-Off Tour",
+    "artist": "J. Cole",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "summer-walker-still-finally-over-it-tour",
+    "tourName": "Still Finally Over It Tour",
+    "artist": "Summer Walker",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "don-toliver-octane-tour",
+    "tourName": "Octane Tour",
+    "artist": "Don Toliver",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "mumford-and-sons-prizefighter-tour",
+    "tourName": "Prizefighter Tour",
+    "artist": "Mumford and Sons",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "jonas-brothers-greetings-from-your-hometown-tour",
+    "tourName": "Greetings From Your Hometown Tour",
+    "artist": "Jonas Brothers",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
+  {
+    "tourId": "zara-larsson-midnight-sun-tour",
+    "tourName": "Midnight Sun Tour",
+    "artist": "Zara Larsson",
+    "tourWebsite": "https://www.alexwarrenofficial.com/#tour"
+  },
 ]
-
-  '-2026.json',
-  'ed-sheeran-the-loop-tour-na-2026.json',
-  'fifa-world-cup-2026.json',
-  'olivia-dean-the-art-of-loving-tour.json',
-  'demi-lovato-its-not-that-deep-tour.json',
-  'bruno-mars-the-romantic-tour.json',
-  'journey-final-frontier-tour.json',
-  'bon-jovi-forever-tour.json',
-  'rush-fifty-something-tour.json',
-  'my-chemical-romance-the-black-parade-tour.json',
-  'chris-stapleton-all-american-road-show-tour.json',
-  'cardi-b-little-miss-drama-tour.json',
-  'hayley-williams-at-a-bachelorette-party-tour.json',
-  'florence-the-machine-everybody-scream-tour.json',
-  'louis-tomlinson-how-did-we-get-here-world-tour.json',
-  'charlie-puth-whatevers-clever-world-tour.json',
-  'bts-world-tour.json',
-  'madison-beer-the-locket-tour.json',
-  'pitbull-im-back-tour.json',
-  'harry-styles-together-together-tour.json',
-  'noah-kahan-the-great-divide-tour.json',
-  'post-malone-the-big-ass-stadium-tour.json',
-  'tame-impala-the-deadbeat-tour.json',
-  'raye-this-tour-may-contain-new-music.json',
-  'the-kid-laroi-a-perfect-world-tour.json',
-  'j-cole-the-fall-off-tour.json',
-  'summer-walker-still-finally-over-it-tour.json',
-  'don-toliver-octane-tour.json',
-  'mumford-and-sons-prizefighter-tour.json',
-  'jonas-brothers-greetings-from-your-hometown-tour.json',
-  'zara-larsson-midnight-sun-tour.json'
