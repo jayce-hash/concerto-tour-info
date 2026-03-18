@@ -1,0 +1,20 @@
+[
+  {
+    "tourId": "sabrina-carpenter-short-n-sweet-2025",
+    "tourName": "Short n' Sweet Tour",
+    "artist": "Sabrina Carpenter",
+    "tourWebsite": "https://sabrinacarpenter.com/tour"
+  },
+  {
+    "tourId": "coldplay-music-of-the-spheres-2025",
+    "tourName": "Music of the Spheres World Tour",
+    "artist": "Coldplay",
+    "tourWebsite": "https://coldplay.com/tour"
+  },
+  {
+    "tourId": "morgan-wallen-one-thing-at-a-time-2025",
+    "tourName": "One Thing at a Time Tour",
+    "artist": "Morgan Wallen",
+    "tourWebsite": "https://morganwallen.com/tour"
+  }
+]
