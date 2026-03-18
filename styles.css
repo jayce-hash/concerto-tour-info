@@ -1,0 +1,236 @@
+/* ============================================================
+   Concerto — Tour Info (slim, light mode)
+   ============================================================ */
+
+:root {
+  --bg:     #F8F9F9;
+  --ink:    #121E36;
+  --muted:  #5E6B86;
+  --line:   #E2E7F0;
+  --card:   #FFFFFF;
+  --accent: #1F2B4A;
+
+  --shadow:  0 10px 30px rgba(18,30,54,.10);
+  --shadow2: 0 3px 12px rgba(18,30,54,.10);
+
+  --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+
+  --fs-12: 12px;
+  --fs-13: 13px;
+  --fs-14: 14px;
+  --fs-15: 15px;
+  --fs-16: 16px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* ============================================================
+   Header
+   ============================================================ */
+
+.page-header {
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 2px 8px rgba(18,30,54,.04);
+  padding: 10px 0 14px;
+}
+
+.page-header-inner {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+}
+
+.brand-logo {
+  max-width: 320px;
+  width: 86%;
+  height: auto;
+  display: block;
+}
+
+.feature-title {
+  margin: 2px 0 0;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 0;
+  font-size: var(--fs-15);
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+/* ============================================================
+   Container + Hero
+   ============================================================ */
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.hero { padding: 10px 0 8px; }
+
+.search-row {
+  margin-top: 14px;
+}
+
+.search {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow2);
+  overflow: hidden;
+}
+
+#tourSearch {
+  width: 100%;
+  padding: 14px 44px 14px 14px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: var(--fs-15);
+  color: var(--ink);
+}
+
+#tourSearch::placeholder { color: rgba(94,107,134,.60); }
+
+.icon-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+  background: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--muted);
+  box-shadow: var(--shadow2);
+}
+
+/* ============================================================
+   Library grid
+   ============================================================ */
+
+.browse-list { margin-top: 4px; }
+
+.grid-head {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 10px;
+}
+
+.muted { color: var(--muted); font-size: var(--fs-13); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+/* Cards are <a> tags */
+.browse-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow2);
+  padding: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform .12s ease, box-shadow .12s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.browse-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.browse-item--no-link {
+  cursor: default;
+}
+
+.browse-item-name {
+  font-size: var(--fs-16);
+  font-weight: 750;
+  letter-spacing: .01em;
+  line-height: 1.25;
+}
+
+.browse-item-meta {
+  color: var(--muted);
+  font-size: var(--fs-13);
+  line-height: 1.35;
+}
+
+.browse-item-cta {
+  margin-top: 6px;
+  font-size: var(--fs-12);
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: .02em;
+}
+
+.browse-item-cta--dim {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* Empty / error states */
+.no-results,
+.error-state {
+  grid-column: 1 / -1;
+  padding: 16px;
+  font-size: var(--fs-14);
+  color: var(--muted);
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+
+@media (max-width: 880px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 520px) {
+  .grid { grid-template-columns: 1fr; }
+  .brand-logo { width: 92%; max-width: 340px; }
+  .feature-title { font-size: 26px; }
+}
+
+@media (hover: none) {
+  .browse-item:hover { transform: none; box-shadow: var(--shadow2); }
+}
