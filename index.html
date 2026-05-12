@@ -2,51 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Concerto · Tour Info</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+  <meta name="theme-color" content="#F8F9F9"/>
+  <title>Tour Info — Concerto</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet"/>
+  
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-  <header class="page-header">
-    <div class="page-header-inner">
-      <img
-        src="./images/brand/concerto-logo.png"
-        alt="Concerto - From the Concert to the City"
-        class="brand-logo"
-      />
-      <h1 class="feature-title">Tour Info</h1>
-      <p class="tagline">Tap a tour to visit the official site.</p>
+  <div id="app">
+    <div class="topbar">
+      <div class="topbar-logo">
+        <span class="topbar-logo-word">CONCERTO - TOUR INFO</span>
+        <span class="topbar-logo-sub">A Premium Experience</span>
+      </div>
+      <div class="topbar-right"></div>
     </div>
-  </header>
 
-  <main class="container">
-    <section class="hero">
-      <div class="search-row">
-        <div class="search">
+    <main class="scroll-area active" id="s-home">
+      
+      <section class="hero">
+        <div class="eyebrow">Direct Access.</div>
+        <h1 class="headline">Pick a tour.<br><em>Get the link.</em></h1>
+        <p class="sub">Search or tap a tour below to visit the official site instantly.</p>
+
+        <div class="dropdown-wrap search-row">
           <input
             id="tourSearch"
+            class="light-input"
             type="search"
-            placeholder="Search tours or artists"
+            placeholder="Search tours or artists..."
             autocomplete="off"
           />
-          <button id="clearSearchBtn" class="icon-btn" title="Clear" aria-label="Clear">×</button>
+          <button id="clearSearchBtn" class="clear-btn" title="Clear" aria-label="Clear">×</button>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="browse-list">
-      <div class="grid-head">
-        <div class="muted" id="libraryMeta"></div>
-      </div>
-      <div id="toursBrowseList" class="grid"></div>
-    </section>
-  </main>
+      <section class="browse-list">
+        <div class="grid-head">
+          <div class="field-label muted" id="libraryMeta" style="margin-top: 28px; margin-bottom: 10px;"></div>
+        </div>
+        <div id="toursBrowseList" class="grid explainer-row" style="margin-top: 0;"></div>
+      </section>
+
+    </main>
+  </div>
 
   <script src="./app.js" defer></script>
 </body>
